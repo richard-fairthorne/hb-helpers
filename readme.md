@@ -1,6 +1,6 @@
 # hb-path
 
-Enable hashbang for commands which require a directory as an argument.
+Enable hashbang for interpreters which require a directory, instead of a filename, as an argument.
 
 ## Why?
 
