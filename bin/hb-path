@@ -1,0 +1,12 @@
+#!/bin/sh
+LENGTH=$(($#-1))
+COMMAND=${@:1:$LENGTH}
+SCRIPT="${@: -1}"
+SCRIPTPATH=`dirname $SCRIPT`
+
+# say what we're gonna do
+echo "Hashbang Corp. path executor (http://hashbang.info)"
+echo "Executing command: $COMMAND $SCRIPTPATH"
+
+# do it
+$COMMAND $SCRIPTPATH
