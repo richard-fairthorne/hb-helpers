@@ -5,6 +5,8 @@ This is a collection of scripts I use to simplify the build and deployment of do
 # Install
 
 ```
+git clone git@github.com:richard-fairthorne/hb-helpers.git
+cd hb-helpers
 ./install
 ```
 
