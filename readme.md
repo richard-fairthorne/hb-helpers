@@ -19,7 +19,7 @@ Run docker from a dockerfile, using a hashbang. Usage is roughly the same as doc
 ```
 #!hb-docker build -t somecompany/someproduct:sometag
 FROM mybut
-[...]
+# [...]
 ```
 ## hb-path
 
