@@ -12,6 +12,15 @@ cd hb-helpers
 
 # Commands
 
+## hb-docker
+
+Usage is roughly the same as docker.
+
+```
+#!hb-docker build -t somecompany/someproduct:sometag
+FROM mybut
+[...]
+```
 ## hb-path
 
 Enable hashbang for interpreters which require a directory, instead of a filename, as an argument.
