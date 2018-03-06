@@ -14,7 +14,7 @@ cd hb-helpers
 
 ## hb-docker
 
-Usage is roughly the same as docker.
+Run docker from a dockerfile, using a hashbang. Usage is roughly the same as docker, but you can omit the context argument, and the file option.
 
 ```
 #!hb-docker build -t somecompany/someproduct:sometag
