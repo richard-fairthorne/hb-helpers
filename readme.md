@@ -25,7 +25,9 @@ FROM mybut
 
 Enable hashbang for interpreters which require a directory, instead of a filename, as an argument.
 
-### Why?
+### Why? Legacy!
+
+note: this came first, but hb-docker is better for docker, and this script probably isn't useful for much else since most programs use a file as an argument, and the context is specified some other way. Either way, here's a fantastic history which will bore you to tears:
 
 My text editor lets me run scripts that start with a #! without needing to open a shell. I could not run docker builds this way, because Docker doesn't use a filename as an argument. It needs a directory name.
 
