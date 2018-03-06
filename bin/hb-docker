@@ -1,0 +1,12 @@
+#!/bin/sh
+LENGTH=$(($#-1))
+OPTIONS=${@:1:$LENGTH}
+SCRIPT="${@: -1}"
+SCRIPTPATH=`dirname $SCRIPT`
+
+# say what we're gonna do
+echo "Hashbang Corp. path executor (http://hashbang.info)"
+echo "Executing command: docker $OPTIONS -f $SCRIPT $SCRIPTPATH"
+
+# do it
+docker  $OPTIONS -f $SCRIPT $SCRIPTPATH
