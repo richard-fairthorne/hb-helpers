@@ -12,6 +12,10 @@ cd hb-helpers
 
 # Commands
 
+## hb-deploy
+
+Build dockerfile and deploy to registry. Allows you specify a default tag on the hasbang line.
+
 ## hb-docker
 
 Run docker from a dockerfile, using a hashbang. Usage is roughly the same as docker, but you can omit the context argument, and the file option.
